@@ -1,8 +1,8 @@
 ---
 main_topsize: 0.12 #percent coverage of the poster
-main_bottomsize: 0.04
+main_bottomsize: 0.05
 #ESSENTIALS
-title: '**Open Educational Resources and Open Source Software**'
+title: '**Open Source Software** and **Open Educational Ressources**'
 author:
   - name: '**Ralph-Uwe Börner**'
     affil: 1
@@ -37,7 +37,7 @@ main_textsize: 90pt
 # main_fontfamily: "Albert Sans"
 # main_fontfamily: "Rasa"
 font_family: "Rasa"
-title_textsize: 104pt
+title_textsize: 110pt
 body_textsize: 42pt
 author_textsize: 50pt
 affiliation_textsize: 32pt
@@ -54,48 +54,41 @@ knitr::opts_chunk$set(echo = FALSE,
 options(knitr.table.format = "html") 
 ```
 
-
-
 ```{r, include=FALSE}
 knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
 ```
 
-
 # Open Source Software
+
 Open Source Software refers to software whose source code is freely available to users. This means that anyone can view, modify, and distribute the code as per the terms of the respective license.
 
-## Characteristics
-- **Transparency**: The source code of OSS is openly accessible, allowing users to inspect and understand how the software functions.
-- **Collaboration**: OSS encourages collaboration among developers worldwide. Anyone can contribute to the improvement of the software by fixing bugs, adding features, or suggesting enhancements.
-- **Community-driven Development**: OSS projects are often developed and maintained by a community of volunteers or organizations. This community aspect fosters innovation and rapid development.
-- **Licensing**: OSS is typically distributed under licenses approved by the Open Source Initiative (OSI), such as the GNU General Public License (GPL) or the Apache License. These licenses ensure that the software remains open and can be freely used, modified, and distributed by anyone.
-- **Flexibility**: Users have the freedom to customize and adapt OSS to suit their specific needs without restrictions imposed by proprietary software.
+![](OSS-Characteristics.excalidraw.svg){width="1500"}
 
 # Open Educational Ressources
 
 Open Educational Resources refer to educational materials that are freely accessible, openly licensed, and available for use, reuse, modification, and sharing.
 
-## Characteristics
+![](OER-Characteristics.excalidraw.svg){width="1500"}
 
-- **Accessibility**:
-- **Open Licensing**:
-- **Adaptability**:
-- **Cost-effectiveness**:
-- **Global Collaboration**:
+<BR>
+<BR>
 
 # Benefits of OSS
-- Cost-effectiveness
-- Transparency and security
-- Flexibility and customization
-- Community-driven development
-- Examples
+
+-   Cost-effectiveness
+-   Transparency and security
+-   Flexibility and customization
+-   Community-driven development
+-   Examples
+
 
 # Benefits of OER
-- Accessibility to quality educational materials
-- Cost-effectiveness for both educators and learners
-- Customization and adaptability to diverse learning needs
-- Global collaboration and knowledge sharing
-- Examples
+
+-   Accessibility to quality educational materials
+-   Cost-effectiveness for both educators and learners
+-   Customization and adaptability to diverse learning needs
+-   Global collaboration and knowledge sharing
+-   Examples
 
 ```{r, out.width="120px", echo=FALSE}
 library(qrcode)
@@ -104,21 +97,22 @@ plot(code, col = c("white", "#00477e"))
 ```
 
 # Impact and Importance
-- Empowering scientific individuals and communities
-- Bridging the digital divide
-- Fostering innovation and creativity
+
+-   Empowering scientific individuals and communities
+-   Bridging the digital divide
+-   Fostering innovation and creativity
 
 # Challenges and Limitations
 
-- Quality control and credibility issues
-- Sustainability and funding
-- Legal and copyright considerations
-- Technological barriers
+-   Quality control and credibility issues
+-   Sustainability and funding
+-   Legal and copyright considerations
+-   Technological barriers
 
 # Best Practices
-- Guidelines for creating and utilizing OSS effectively
-- Strategies for developing, using, and sharing OER responsibly
-- Ways to overcome challenges and maximize benefits
+
+-   Guidelines for creating and utilizing OSS effectively
+-   Strategies for developing, using, and sharing OER responsibly
+-   Ways to overcome challenges and maximize benefits
 
 # Conclusion
-
