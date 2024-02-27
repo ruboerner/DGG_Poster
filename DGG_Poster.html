@@ -25,7 +25,7 @@ Font-awesome icons ie github or twitter
 <!--
 Google fonts api stuff
 -->
-<link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Rasa' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Rasa' rel='stylesheet'>
 
 <!--
@@ -43,7 +43,7 @@ padding: 0px;
 width: 33.1in;
 height: 46.8in;
 text-align: justify;
-font-size: 50pt;
+font-size: 42pt;
 line-height: 1.05;
 }
 /* RMarkdown Class Styles */
@@ -125,10 +125,10 @@ padding: 0px;
 }
 .outer {
 width: 33.1in;
-height: calc(46.8in *  (1 - 0.16 - 4.0e-2 - 0.01) );
--webkit-column-count: 1; /* Chrome, Safari, Opera */
--moz-column-count: 1; /* Firefox */
-column-count: 1;
+height: calc(46.8in *  (1 - 0.12 - 4.0e-2 - 0.01) );
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+-moz-column-count: 2; /* Firefox */
+column-count: 2;
 -webkit-column-fill: auto;
 -moz-column-fill: auto;
 column-fill: auto;
@@ -146,7 +146,7 @@ column-rule-style: none;
 column-rule-color: black;
 background-color: #ffffff;
 font-family: Rasa;
-margin-top: calc(46.8in *  0.16 );
+margin-top: calc(46.8in *  0.12 );
 padding-top: 1em;
 padding-bottom: 1em;
 }
@@ -239,11 +239,11 @@ text-align: left;
 }
 .main {
 width: 33.1in;
-height: calc(46.8in * 0.16);
+height: calc(46.8in * 0.12);
 position: absolute;
 background-color: #00477e;
 color: #ffffff90;
-font-family: Special Elite;
+font-family: Rasa;
 background-image: linear-gradient(#00477e 50%,#0064A8);
 }
 .main strong {
@@ -275,7 +275,7 @@ position: absolute;
 }
 .main p {
 font-size: 90pt;
-font-family: Special Elite;
+font-family: Rasa;
 text-align: center;
 margin: 0;
 position: absolute;
@@ -382,36 +382,82 @@ span > #tab:mytable {
 </p>
 </div>
 
-<div id="introduction" class="section level1">
-<h1>Introduction</h1>
-<p>This is the <code>posterdown_betterport</code> template for the {posterdown} package! I was inspired by the twitter thread of <a href="https://mobile.twitter.com/mikemorrison/status/1110191245035479041">Mike Morrison</a> and wanted to apply the <code>#betterposter</code> concept to the reproducible (yet simple to use) functionality of the {posterdown} package <span class="citation">(<a href="#ref-R-posterdown">Thorne 2019</a>)</span>. If you’re not an R user don’t sweat as you do <strong>NOT</strong> need to use it at all! Feel free to use only the Markdown functionality of this package :)</p>
+<div id="open-source-software" class="section level1">
+<h1>Open Source Software</h1>
+<p>Open Source Software refers to software whose source code is freely available to users. This means that anyone can view, modify, and distribute the code as per the terms of the respective license.</p>
+<div id="characteristics" class="section level2">
+<h2>Characteristics</h2>
+<ul>
+<li><strong>Transparency</strong>: The source code of OSS is openly accessible, allowing users to inspect and understand how the software functions.</li>
+<li><strong>Collaboration</strong>: OSS encourages collaboration among developers worldwide. Anyone can contribute to the improvement of the software by fixing bugs, adding features, or suggesting enhancements.</li>
+<li><strong>Community-driven Development</strong>: OSS projects are often developed and maintained by a community of volunteers or organizations. This community aspect fosters innovation and rapid development.</li>
+<li><strong>Licensing</strong>: OSS is typically distributed under licenses approved by the Open Source Initiative (OSI), such as the GNU General Public License (GPL) or the Apache License. These licenses ensure that the software remains open and can be freely used, modified, and distributed by anyone.</li>
+<li><strong>Flexibility</strong>: Users have the freedom to customize and adapt OSS to suit their specific needs without restrictions imposed by proprietary software.</li>
+</ul>
 </div>
-<div id="objectives" class="section level1">
-<h1>Objectives</h1>
-<ol style="list-style-type: decimal">
-<li>Pick a template layout.</li>
-<li>Write/ create your poster content distraction free.</li>
-<li>Let posterdown do its thing!</li>
-</ol>
+</div>
+<div id="open-educational-ressources" class="section level1">
+<h1>Open Educational Ressources</h1>
+<p>Open Educational Resources refer to educational materials that are freely accessible, openly licensed, and available for use, reuse, modification, and sharing.</p>
+<div id="characteristics-1" class="section level2">
+<h2>Characteristics</h2>
+<ul>
+<li><strong>Accessibility</strong>:</li>
+<li><strong>Open Licensing</strong>:</li>
+<li><strong>Adaptability</strong>:</li>
+<li><strong>Cost-effectiveness</strong>:</li>
+<li><strong>Global Collaboration</strong>:</li>
+</ul>
+</div>
+</div>
+<div id="benefits-of-oss" class="section level1">
+<h1>Benefits of OSS</h1>
+<ul>
+<li>Cost-effectiveness</li>
+<li>Transparency and security</li>
+<li>Flexibility and customization</li>
+<li>Community-driven development</li>
+<li>Examples</li>
+</ul>
+</div>
+<div id="benefits-of-oer" class="section level1">
+<h1>Benefits of OER</h1>
+<ul>
+<li>Accessibility to quality educational materials</li>
+<li>Cost-effectiveness for both educators and learners</li>
+<li>Customization and adaptability to diverse learning needs</li>
+<li>Global collaboration and knowledge sharing</li>
+<li>Examples</li>
+</ul>
 <p><img src="DGG_Poster_files/figure-html/unnamed-chunk-3-1.png" width="120px" style="display: block; margin: auto;" /></p>
 </div>
-<div id="methods" class="section level1">
-<h1>Methods</h1>
-<p>I will show here how to include poster elements that may be useful, such as equation using mathjax:
-<span class="math display">\[
-E = mc^2
-\]</span>
-To reference a citation you can add your <code>.bib</code> file to the working directory and name it in the YAML metadata or generate an automated one as done here, then you only need to reference the label value in the <code>.bib</code> file. For example this package is built on top of the wonderful {pagedown} package and I will cite it at the end of this sentence using this in the rmd <code>[@R-pagedown]</code> <span class="citation">(<a href="#ref-R-pagedown">Xie et al. 2022</a>)</span>.</p>
-<p>To get a better understanding of how to include features like these please refer to the {posterdown} <a href="https://github.com/posterdown/wiki">wiki</a>.</p>
-<p><strong><em>Now on to the results!</em></strong></p>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-R-posterdown" class="csl-entry">
-Thorne, Brent. 2019. <em>Posterdown: Generate PDF Conference Posters Using r Markdown</em>. <a href="https://github.com/brentthorne/posterdown">https://github.com/brentthorne/posterdown</a>.
+<div id="impact-and-importance" class="section level1">
+<h1>Impact and Importance</h1>
+<ul>
+<li>Empowering scientific individuals and communities</li>
+<li>Bridging the digital divide</li>
+<li>Fostering innovation and creativity</li>
+</ul>
 </div>
-<div id="ref-R-pagedown" class="csl-entry">
-Xie, Yihui, Romain Lesur, Brent Thorne, and Xianying Tan. 2022. <em>Pagedown: Paginate the HTML Output of r Markdown with CSS for Print</em>. <a href="https://github.com/rstudio/pagedown">https://github.com/rstudio/pagedown</a>.
+<div id="challenges-and-limitations" class="section level1">
+<h1>Challenges and Limitations</h1>
+<ul>
+<li>Quality control and credibility issues</li>
+<li>Sustainability and funding</li>
+<li>Legal and copyright considerations</li>
+<li>Technological barriers</li>
+</ul>
 </div>
+<div id="best-practices" class="section level1">
+<h1>Best Practices</h1>
+<ul>
+<li>Guidelines for creating and utilizing OSS effectively</li>
+<li>Strategies for developing, using, and sharing OER responsibly</li>
+<li>Ways to overcome challenges and maximize benefits</li>
+</ul>
 </div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
 </div>
 
 </div>
@@ -425,19 +471,6 @@ Xie, Yihui, Romain Lesur, Brent Thorne, and Xianying Tan. 2022. <em>Pagedown: Pa
 </div>
 </div>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-var script = document.createElement("script");
-script.type = "text/javascript";
-var src = "true";
-if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-if (location.protocol !== "file:" && /^https?:/.test(src))
-src = src.replace(/^https?:/, '');
-script.src = src;
-document.getElementsByTagName("head")[0].appendChild(script);
-})();
-</script>
 
 
 </body>

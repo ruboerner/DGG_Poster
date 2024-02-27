@@ -1,5 +1,5 @@
 ---
-main_topsize: 0.16 #percent coverage of the poster
+main_topsize: 0.12 #percent coverage of the poster
 main_bottomsize: 0.04
 #ESSENTIALS
 title: '**Open Educational Resources and Open Source Software**'
@@ -33,11 +33,14 @@ accent_colour: "#0064A8"
 poster_width: 33.1in
 poster_height: 46.8in
 main_textsize: 90pt
+# main_fontfamily: "Albert Sans"
+main_fontfamily: "Rasa"
+font_family: "Rasa"
 title_textsize: 104pt
-body_textsize: 50pt
+body_textsize: 42pt
 author_textsize: 50pt
 affiliation_textsize: 32pt
-column_numbers: 1
+column_numbers: 2
 ---
 
 ```{r, include=FALSE}
@@ -50,19 +53,48 @@ knitr::opts_chunk$set(echo = FALSE,
 options(knitr.table.format = "html") 
 ```
 
-# Introduction
 
-This is the `posterdown_betterport` template for the {posterdown} package! I was inspired by the twitter thread of [Mike Morrison](https://mobile.twitter.com/mikemorrison/status/1110191245035479041) and wanted to apply the `#betterposter` concept to the reproducible (yet simple to use) functionality of the {posterdown} package [@R-posterdown]. If you're not an R user don't sweat as you do **NOT** need to use it at all! Feel free to use only the Markdown functionality of this package :)
 
 ```{r, include=FALSE}
 knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
 ```
 
-# Objectives
 
-1.  Pick a template layout.
-2.  Write/ create your poster content distraction free.
-3.  Let posterdown do its thing!
+# Open Source Software
+Open Source Software refers to software whose source code is freely available to users. This means that anyone can view, modify, and distribute the code as per the terms of the respective license.
+
+## Characteristics
+- **Transparency**: The source code of OSS is openly accessible, allowing users to inspect and understand how the software functions.
+- **Collaboration**: OSS encourages collaboration among developers worldwide. Anyone can contribute to the improvement of the software by fixing bugs, adding features, or suggesting enhancements.
+- **Community-driven Development**: OSS projects are often developed and maintained by a community of volunteers or organizations. This community aspect fosters innovation and rapid development.
+- **Licensing**: OSS is typically distributed under licenses approved by the Open Source Initiative (OSI), such as the GNU General Public License (GPL) or the Apache License. These licenses ensure that the software remains open and can be freely used, modified, and distributed by anyone.
+- **Flexibility**: Users have the freedom to customize and adapt OSS to suit their specific needs without restrictions imposed by proprietary software.
+
+# Open Educational Ressources
+
+Open Educational Resources refer to educational materials that are freely accessible, openly licensed, and available for use, reuse, modification, and sharing.
+
+## Characteristics
+
+- **Accessibility**:
+- **Open Licensing**:
+- **Adaptability**:
+- **Cost-effectiveness**:
+- **Global Collaboration**:
+
+# Benefits of OSS
+- Cost-effectiveness
+- Transparency and security
+- Flexibility and customization
+- Community-driven development
+- Examples
+
+# Benefits of OER
+- Accessibility to quality educational materials
+- Cost-effectiveness for both educators and learners
+- Customization and adaptability to diverse learning needs
+- Global collaboration and knowledge sharing
+- Examples
 
 ```{r, out.width="120px", echo=FALSE}
 library(qrcode)
@@ -70,14 +102,22 @@ code <- qr_code('http://tu-freiberg.de')
 plot(code, col = c("white", "#00477e"))
 ```
 
-# Methods
+# Impact and Importance
+- Empowering scientific individuals and communities
+- Bridging the digital divide
+- Fostering innovation and creativity
 
-I will show here how to include poster elements that may be useful, such as equation using mathjax:
-$$
-E = mc^2 
-$$
-To reference a citation you can add your `.bib` file to the working directory and name it in the YAML metadata or generate an automated one as done here, then you only need to reference the label value in the `.bib` file. For example this package is built on top of the wonderful {pagedown} package and I will cite it at the end of this sentence using this in the rmd `[@R-pagedown]` [@R-pagedown].
+# Challenges and Limitations
 
-To get a better understanding of how to include features like these please refer to the {posterdown} [wiki](https://github.com/posterdown/wiki).
+- Quality control and credibility issues
+- Sustainability and funding
+- Legal and copyright considerations
+- Technological barriers
 
-***Now on to the results!***
+# Best Practices
+- Guidelines for creating and utilizing OSS effectively
+- Strategies for developing, using, and sharing OER responsibly
+- Ways to overcome challenges and maximize benefits
+
+# Conclusion
+
