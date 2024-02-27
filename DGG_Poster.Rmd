@@ -16,9 +16,10 @@ affiliation:
     address: Institute of Geophysics and Geoinformatics, TU Bergakademie Freiberg
 main_findings:
   - "The potential of **Open Source Software** and **Open Educational Resources** for positive impacts on teaching, learning, and research is immense."
+#  - "![](GLOBE.png){.main_pic}"
 logoleft_name: TUBAF_Logo_EN_weiss.png
-logocenter_name: TUBAF_Logo_EN_weiss.png
-logoright_name: TUBAF_Logo_EN_weiss.png
+logoright_name: GLOBE.png
+# logoright_name: TUBAF_Logo_EN_weiss.png
 output: 
   posterdown::posterdown_betterport:
     self_contained: false
@@ -34,7 +35,7 @@ poster_width: 33.1in
 poster_height: 46.8in
 main_textsize: 90pt
 # main_fontfamily: "Albert Sans"
-main_fontfamily: "Rasa"
+# main_fontfamily: "Rasa"
 font_family: "Rasa"
 title_textsize: 104pt
 body_textsize: 42pt
