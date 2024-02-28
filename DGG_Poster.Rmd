@@ -2,7 +2,7 @@
 main_topsize: 0.12 #percent coverage of the poster
 main_bottomsize: 0.05
 #ESSENTIALS
-title: '**Open Source Software** and **Open Educational Ressources**'
+title: '**Open Source Software** and **Open Educational Resources**'
 author:
   - name: '**Ralph-Uwe Börner**'
     affil: 1
@@ -64,7 +64,7 @@ Open Source Software refers to software whose source code is freely available to
 
 ![](OSS-Characteristics.excalidraw.svg){width="1500"}
 
-# Open Educational Ressources
+# Open Educational Resources
 
 Open Educational Resources refer to educational materials that are freely accessible, openly licensed, and available for use, reuse, modification, and sharing.
 
@@ -116,3 +116,5 @@ plot(code, col = c("white", "#00477e"))
 -   Ways to overcome challenges and maximize benefits
 
 # Conclusion
+
+Gold-Standard zu OER-Materialien: <https://open-educational-resources.de/tag/gold-standard/>
