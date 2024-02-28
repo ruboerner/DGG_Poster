@@ -37,7 +37,7 @@ main_textsize: 90pt
 # main_fontfamily: "Albert Sans"
 # main_fontfamily: "Rasa"
 font_family: "Rasa"
-title_textsize: 110pt
+title_textsize: 100pt
 body_textsize: 42pt
 author_textsize: 50pt
 affiliation_textsize: 32pt
@@ -60,35 +60,31 @@ knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
 
 # Open Source Software
 
-Open Source Software refers to software whose source code is freely available to users. This means that anyone can view, modify, and distribute the code as per the terms of the respective license.
+Open Source Software (OSS) refers to software whose source code is freely available to users. This means that anyone can view, modify, and distribute the code as per the terms of the respective license.
 
 ![](OSS-Characteristics.excalidraw.svg){width="1500"}
 
+<BR>
+
 # Open Educational Resources
 
-Open Educational Resources refer to educational materials that are freely accessible, openly licensed, and available for use, reuse, modification, and sharing.
+Open Educational Resources (OER) refer to educational materials that are freely accessible, openly licensed, and available for use, reuse, modification, and sharing.
 
 ![](OER-Characteristics.excalidraw.svg){width="1500"}
 
 <BR>
 <BR>
+<BR>
 
 # Benefits of OSS
 
--   Cost-effectiveness
--   Transparency and security
--   Flexibility and customization
--   Community-driven development
--   Examples
+![](OSS-Benefits.excalidraw.svg){width="1400"}
 
 
 # Benefits of OER
 
--   Accessibility to quality educational materials
--   Cost-effectiveness for both educators and learners
--   Customization and adaptability to diverse learning needs
--   Global collaboration and knowledge sharing
--   Examples
+![](OER-Benefits.excalidraw.svg){width="1400"}
+
 
 ```{r, out.width="120px", echo=FALSE}
 library(qrcode)
@@ -96,25 +92,6 @@ code <- qr_code('http://tu-freiberg.de')
 plot(code, col = c("white", "#00477e"))
 ```
 
-# Impact and Importance
-
--   Empowering scientific individuals and communities
--   Bridging the digital divide
--   Fostering innovation and creativity
-
-# Challenges and Limitations
-
--   Quality control and credibility issues
--   Sustainability and funding
--   Legal and copyright considerations
--   Technological barriers
-
-# Best Practices
-
--   Guidelines for creating and utilizing OSS effectively
--   Strategies for developing, using, and sharing OER responsibly
--   Ways to overcome challenges and maximize benefits
-
-# Conclusion
+# Toolchain Examples
 
 Gold-Standard zu OER-Materialien: <https://open-educational-resources.de/tag/gold-standard/>
