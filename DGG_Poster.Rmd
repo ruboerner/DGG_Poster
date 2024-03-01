@@ -76,14 +76,22 @@ Open Educational Resources (OER) refer to educational materials that are freely 
 <BR>
 <BR>
 
-# Benefits of OSS
+# Benefits of OSS and OER
 
-![](OSS-Benefits.excalidraw.svg){width="1400"}
+:::: {.columns}
+::: {.column width="50%"}
+
+![](OSS-Benefits.excalidraw.svg){width="720"}
+:::
+
+::: {.column width="50%"}
+
+![](OER-Benefits.excalidraw.svg){width="700"}
+:::
+
+::::
 
 
-# Benefits of OER
-
-![](OER-Benefits.excalidraw.svg){width="1400"}
 
 
 ```{r, out.width="120px", echo=FALSE}
