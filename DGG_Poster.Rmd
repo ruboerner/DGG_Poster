@@ -19,7 +19,7 @@ main_findings:
 #  - "![](GLOBE.png){.main_pic}"
 logoleft_name: TUBAF_Logo_EN_weiss.png
 logoright_name: GLOBE.png
-# logoright_name: TUBAF_Logo_EN_weiss.png
+logocenter_name: TUBAF_Logo_EN_weiss.png
 output: 
   posterdown::posterdown_betterport:
     self_contained: false
@@ -62,29 +62,41 @@ knitr::write_bib(c('posterdown', 'rmarkdown','pagedown'), 'packages.bib')
 
 Open Source Software (OSS) refers to software whose source code is freely available to users. This means that anyone can view, modify, and distribute the code as per the terms of the respective license.
 
-![](OSS-Characteristics.excalidraw.svg){width="1400"}
+```{r, echo=FALSE, out.width="1000px"}
+knitr::include_graphics("OSS-Characteristics.excalidraw.svg")
+```
 
+ 
 <BR>
 
 # Open Educational Resources
 
 Open Educational Resources (OER) refer to educational materials that are freely accessible, openly licensed, and available for use, reuse, modification, and sharing.
 
-![](OER-Characteristics.excalidraw.svg){width="1400"}
+```{r, echo=FALSE, out.width="1000px"}
+knitr::include_graphics("OER-Characteristics.excalidraw.svg")
+```
 
-<BR> <BR> <BR>
+
+<BR> <BR>
 
 # Benefits of OSS and OER
 
-::: columns
+:::: columns
 ::: {.column width="50%"}
-![](OSS-Benefits.excalidraw.svg){width="720"}
+```{r, echo=FALSE, out.width="600px"}
+knitr::include_graphics("OSS-Benefits.excalidraw.svg")
+```
+
 :::
 
 ::: {.column width="50%"}
-![](OER-Benefits.excalidraw.svg){width="700"}
+```{r, echo=FALSE, out.width="600px"}
+knitr::include_graphics("OER-Benefits.excalidraw.svg")
+```
+
 :::
-:::
+::::
 
 # Recent Developments
 
@@ -166,4 +178,4 @@ plot(code, col = c("white", "#00477e"))
   <BR>
 ::::
 
-
+## Collection of Awesome OSS and OER
