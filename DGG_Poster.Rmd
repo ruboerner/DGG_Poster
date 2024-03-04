@@ -18,8 +18,8 @@ main_findings:
   - "The potential of **Open Source Software** and **Open Educational Resources** for positive impacts on teaching, learning, and research is immense."
 #  - "![](GLOBE.png){.main_pic}"
 logoleft_name: TUBAF_Logo_EN_weiss.png
-logoright_name: GLOBE.png
-logocenter_name: TUBAF_Logo_EN_weiss.png
+logoright_name: qr-poster.png
+logocenter_name: GLOBE.png
 output: 
   posterdown::posterdown_betterport:
     self_contained: false
