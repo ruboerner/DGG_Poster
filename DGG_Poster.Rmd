@@ -98,11 +98,11 @@ knitr::include_graphics("OER-Benefits.excalidraw.svg")
 :::
 ::::
 
-# Recent Developments
+# Best practice examples
 
 ## Quarto
 
-::: {.columns}
+:::: {.columns}
 
 ::: {.column width="80%"}
 `Quarto` is an open-source scientific publishing system.
@@ -120,11 +120,25 @@ plot(code, col = c("white", "#00477e"))
 * Create dynamic content with Python, R, Julia, and Observable.
 * Publish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.
 
+::::
+
+:::: {.columns}
+::: {.column width="80%"}
+A small presentation about `Quarto`, built with `Quarto`: 
+:::
+
+::: {.column width="20%"}
+
+```{r, out.width="300px", echo=FALSE}
+library(qrcode)
+code <- qr_code('https://ruboerner.github.io/DGG-Slides-2024/#/title')
+plot(code, col = c("white", "#00477e"))
+```
+
 :::
 
 
-
-
+::::
 
 ## Myst
 
@@ -178,6 +192,24 @@ plot(code, col = c("white", "#00477e"))
   <BR>
 ::::
 
-## Collection of Awesome OSS and OER
+## Collection of Awesome OSS and OER projects
 
-TODO.
+:::: {.columns}
+::: {.column width="80%"}
+This QR code links to a GitHub repository which hosts a list that might be a good starting point for collecting interesting OSS and OER projects related, but not restricted, to Geophysics: 
+:::
+
+::: {.column width="20%"}
+
+```{r, out.width="300px", echo=FALSE}
+library(qrcode)
+code <- qr_code('https://github.com/ruboerner/awesome_oss')
+plot(code, col = c("white", "#00477e"))
+```
+
+:::
+
+
+::::
+
+
